@@ -32,7 +32,6 @@ axios.interceptors.request.use(config => {
 	return Promise.reject(error);
 });
 
-console.log(base64Img.base64Sync("profile-pics/Eliot_Elmer.jpg"), "base64 encoding");
 const STEPS = [
   // Eliot Elmer
 	{
